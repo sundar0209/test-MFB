@@ -1,0 +1,502 @@
+/* @media (min-width: 992px) {
+  #wrapper {
+    padding-left: 0px;
+    padding-top: 65px;
+  }
+
+  #wrapper.toggled {
+    padding-left: 60px;
+  }
+
+  #sidebar-wrapper {
+    width: 240px;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 45px;
+  }
+
+  #wrapper.toggled #header-wrapper {
+    position: absolute;
+    margin-right: -190px;
+  }
+
+  #wrapper.toggled #content-wrapper {
+    position: absolute;
+    margin-right: -190px;
+  }
+
+  #header-wrapper {
+    position: fixed;
+    top: 0;
+  }
+
+  #wrapper.toggled {
+    padding-left: 45px;
+  }
+
+  #content-wrapper {
+    position: relative;
+    top: 0;
+    left: 0px;
+    padding-left: 260px;
+  }
+
+  #wrapper.toggled #header-wrapper,
+  #wrapper.toggled #content-wrapper {
+    position: relative;
+    margin-right: 60px;
+  }
+
+  #wrapper.toggled .sidebar-brand {
+    left: 5px;
+  }
+
+  #wrapper.toggled .sidebar-brand h2 img {
+    height: 40px;
+  }
+
+
+  #wrapper.toggled #header-wrapper .navbar a i::after {
+    content: "\f00d";
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #wrapper {
+    padding-left: 0px;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 240px;
+  }
+
+  #wrapper.toggled #header-wrapper {
+    position: absolute;
+    margin-right: -240px;
+  }
+
+  #wrapper.toggled #content-wrapper {
+    position: absolute;
+    margin-right: -240px;
+  }
+
+  #header-wrapper {
+    position: relative;
+  }
+
+  #wrapper.toggled {
+    padding-left: 240px;
+  }
+
+  #content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  #wrapper.toggled #header-wrapper,
+  #wrapper.toggled #content-wrapper {
+    position: relative;
+    margin-right: 240px;
+  }
+}
+
+
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+
+  .dashboardCounts .col-lg-6 {
+    margin-bottom: 10px;
+  }
+
+}
+
+
+@media (max-width: 991px) {
+  a.burgerMenu {
+    display: block;
+  }
+
+  .brandIcon img {
+    height: 30px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+
+  #wrapper {
+    padding-left: 0;
+  }
+
+  #sidebar-wrapper {
+    width: 0;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 240px;
+  }
+
+  #wrapper.toggled #header-wrapper {
+    position: absolute;
+    margin-right: -240px;
+  }
+
+  #wrapper.toggled #content-wrapper {
+    position: absolute;
+    margin-right: -240px;
+  }
+
+  #header-wrapper {
+    position: relative;
+  }
+
+  #wrapper.toggled {
+    padding-left: 240px;
+  }
+
+  #content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  #wrapper.toggled #header-wrapper,
+  #wrapper.toggled #content-wrapper {
+    position: relative;
+    margin-right: 240px;
+  }
+
+  .usersDetails {
+    display: none;
+  }
+
+  .vendorName {
+    font-size: 20px;
+  }
+}
+
+
+
+@media (max-width: 520px) {
+
+  .vendorName {
+    font-size: 18px;
+  }
+} */
+
+
+@media (max-width: 1400px) {
+  .dashboardCounts .col-lg-6 {
+    margin-bottom: 10px;
+  }
+  .financeInfo .col-lg-12 {
+    display: flex;
+  }
+  .tableSearchBlock {
+    display: contents;
+}
+.col-lg-3.col-md-12.col-sm-12.col-12.report {
+  width: 50%;
+}
+}
+
+@media (max-width: 1200px) {
+  .investment {
+    padding: 20px 10px;
+  }
+
+  .investment .label {
+    font-size: 16px;
+  }
+
+  h2.total_amount {
+    font-size: 25px;
+  }
+
+  .proLeft {
+    padding: 30px 15px;
+  }
+
+  .financeInfo p.form-label {
+    width: 100px;
+  }
+
+  .financeInfo .col-lg-12 {
+    display: flex;
+  }
+
+  .profilePic {
+    margin-bottom: 30px;
+  }
+  .tableSearchBlock {
+    display: contents;
+}
+.col-lg-3.col-md-12.col-sm-12.col-12.report {
+  width: 50%;
+}
+
+}
+
+@media (max-width: 992px) {
+  #header-wrapper .navbar {
+    padding: 0;
+  }
+
+  a.burgerMenu {
+    display: block;
+  }
+
+  #header-wrapper .navbar .menuLeft {
+    display: flex;
+    align-items: center;
+  }
+
+  .brandIcon img {
+    height: 40px;
+    width: 40px;
+  }
+
+  #sidebar-wrapper {
+    top: 49px;
+  }
+
+  #content-wrapper {
+    top: 50px;
+    padding-left: 15px;
+  }
+
+  .sidebar-brand {
+    display: none;
+  }
+
+  #sidebar-wrapper {
+    width: 0;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 240px;
+  }
+
+  .loanHead .form-group.loanStatus {
+    margin-left: 0;
+    float: left !important;
+  }
+
+  .tableSearchBlock .form-control {
+    width: 150px;
+  }
+  .fixedLastCol .rdt_TableHeadRow .rdt_TableCol:last-child {
+    right: 0px;
+    min-width: 50px;
+  }
+  .fixedLastCol .rdt_TableRow .rdt_TableCell:last-child {
+    min-width: 50px;
+    padding: 0px;
+  }
+  span.view {
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .topUser {
+    display: none !important;
+  }
+
+  #header-wrapper .navbar .menuLeft {
+    width: 80% !important;
+  }
+
+  #header-wrapper .navbar .menuRight {
+    width: 20% !important;
+  }
+
+  .navbarRight ul {
+    margin-right: 0;
+  }
+
+  .tableSearch {
+    display: none;
+  }
+
+  /* .btn-primary .label {
+    display: none;
+  } */
+
+  .addBtn i {
+    font-size: 20px;
+    vertical-align: middle;
+  }
+
+  .addBtn {
+    margin-top: 3px;
+  }
+
+  .tableSearchBlock .col-4 {
+    margin-left: 6;
+  }
+
+  
+  h1.pageHead {
+    font-size: 18px;
+  }
+
+  .financeInfo p.form-label {
+    width: 150px;
+  }
+
+  .financeInfo .col-lg-12 {
+    display:flex;
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .investment {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .tableSearchBlock {
+    display: contents;
+  }
+
+  .col-4.print {
+    margin-bottom: 20px;
+  }
+
+  .col-4.add-customer {
+    margin-bottom: 20px;
+  }
+
+  .profilePic {
+    margin-bottom: 20px;
+  }
+
+  table,
+  th,
+  td {
+    padding: 10px;
+  }
+
+
+  ::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 6px #004b86;
+	-webkit-box-shadow: inset 0 0 6px #004b86;
+}
+
+
+::-webkit-scrollbar-thumb
+{
+  box-shadow: inset 0 0 6px #004b86;
+	-webkit-box-shadow: inset 0 0 6px #004b86;
+	background-color: #004b86;
+}
+
+
+}
+
+@media (max-width: 576px) {
+  h2.brandIcon {
+    font-size: 20px;
+  }
+
+  .form-check {
+    margin-right: 10px;
+  }
+  .user-upload-btn-wrapper img {
+    margin-bottom: 10px;
+}
+button.btn.btn-primary.float-end.smallBtn.me-2 {
+  margin-right: 10px !important;
+}
+.loginContainer{
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  border-radius: 0;
+}
+}
+
+@media (max-width: 420px) {
+  h2.brandIcon {
+    font-size: 18px;
+  }
+
+  .form-check {
+    clear: both;
+    display: block;
+    margin-top: 15px;
+  }
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    width: 90%;
+  }
+
+  .remindme .form-group {
+    float: left;
+    width: 100%;
+  }
+
+  .remindme p.float-end {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  a.btn.btn-primary.btn-outline.float-end {
+    margin-bottom: 10px;
+}
+button.btn.btn-primary.float-end {
+  margin-bottom: 10px;
+}
+
+  h1.pageHead {
+    margin-bottom: 6px !important;
+  }
+
+  .form-group {
+    margin-bottom: 6px;
+  }
+
+  .tableSearchBlock .form-control {
+    margin-bottom: 6px;
+  }
+
+  .col-4.selectStatus {
+    margin-bottom: 6px;
+  }
+  select#BankAcc {
+    margin-bottom: 6px;
+}
+
+
+span.label {
+  display: none;
+}
+.modal {
+  width: 99%;
+  height: 100%;
+  padding: 0px 8px 0px 0px !important;
+}
+.custom-checkbox+label {
+  margin-bottom: 0px;
+}
+.save-back {
+  position: absolute;
+}
+.modal-header div.loanAmt {
+  text-align: left;
+  display: inline-grid;
+}
+}
+
